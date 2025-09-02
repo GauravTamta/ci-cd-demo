@@ -19,8 +19,8 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        working-directory: ./
+        working-directory: ./ci-cd-demo
 
       - name: Run Tests
         run: npm test
-        working-directory: ./
+        working-directory: ./ci-cd-demo
